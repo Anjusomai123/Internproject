@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu</title>
-    <link rel="stylesheet"href="style.css">
+    <title>Nav Menu</title>
+    <link rel="stylesheet"href="styles.css">
 </head>
 <body>
-    <header>
-        
-    </header><nav class="navbar">
+    <nav>
+        <ul class="navbar">
         <div class="header-content">CAR DEALER</div>
                 <ul class="links">
                     <li><a href="#Home">Home</a></li>
@@ -28,32 +27,29 @@
                      </li>
                    <li><a href="#About">About</a></li>
                    <li><a href="#Contact">Contact</a></li>
-                
-                </ul>
-               <div class="button">
-                <button class="auth-buttons" id="signin-btn">Sign In</button>
-                   <button class="Register">Register</button>
-               </div>
-                <div>
-                    <li><div class="hamburger-menu" onclick="toggleSidebar()">☰</div></li>
-                </div>
+                   <div class="Button">
+                    <button class="signin-buttons" id="signIn">SignIn</button>
+                       <button class="Register">Register</button>
+                   </div>
+               <div class="hamburger-menu" onclick="toggleSidebar()">☰</div>
+            </ul>
             </nav>
             <div class="sidebar">
-                <div class="sidebar-header">
+                <div id="sidebarMenu" class="sidebarMenu" style="display:none;">
                     <h2>Mail</h2>
                     <p>anjusomai135@gmail.com</p>
-                </div>
-                <ul class="sidebar-menu">
-                    <li><a href="#" class="active"><i class="icon">✉️</i>Inbox</a></li>
-                    <li><a href="#"><i class="icon">📤</i>Outbox</a></li>
-                    <li><a href="#"><i class="icon">❤️</i>Favorites</a></li>
-                    <li><a href="#"><i class="icon">📂</i>Archive</a></li>
-                    <li><a href="#"><i class="icon">🗑️</i>Trash</a></li>
-                    <li><a href="#"><i class="icon">⚠️</i>Spam</a></li>
+            
+                <ul class="sidebar-menu" id="sidebarMenu">
+                    <a href="#" class="active"><i class="icon">✉️</i>Inbox</a>
+                    <a href="#"><i class="icon">📤</i>Outbox</a>
+                    <a href="#"><i class="icon">❤️</i>Favorites</a>
+                    <a href="#"><i class="icon">📂</i>Archive</a>
+                    <a href="#"><i class="icon">🗑️</i>Trash</a>
+                    <a href="#"><i class="icon">⚠️</i>Spam</a>
                 </ul>
                 <h3>Labels</h3>
-                    <ul class="labels">
-                        <li><a href="#"><i class="icon">🏷️</i>Family</a></li>
+                    <ul class="labels" id="sidebarMenu">
+                        <a href="#"><i class="icon">🏷️</i>Family</a>
                     </ul>
                 </div>
                   
@@ -74,8 +70,8 @@
                     </form>
                 </div>
             </div>
-        
-    <script src="script.js"></script>
-    
+            
+            <script src="scripts.js"></script>
+               
 </body>
 </html>
