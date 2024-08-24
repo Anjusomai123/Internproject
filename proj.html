@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home" onclick="showSection('home')">Home</a></li>
+      <li><a href="#about" onclick="showSection('about')">About</a></li>
+      <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+      <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <div class="container home-container">
+      <img src="../portfoli.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Anju Somai</h1>
+      <p>Hello I am a CSIT student with a strong interest in technology and problem-solving. I have learned how to create websites, work with data, and solve problems using different programming languages.I enjoy learning new things and building projects.My goal is to continue growing my skills and become perfect in IT field.</p>
+    </div>
+  </section>
+
+  
+  <section id="about">
+    <div class="container about-container">
+        <div class="about-text">
+          <h3>Skills</h3>
+          <p>Web Development: <br>Front-end:HTML, CSS, JavaScript<br>Databases: SQL (MySQL)</p><br><br><br>
+          <h3>Education</h3>
+          <p>+2 Science<br>Eager Bridge Boarding Secondary School,Birendranagar-10,Surkhet.<br><br>Bachelor of Computer Science and Information Technology<br>Currently studying in final year<br>Mid-West University,Birendranagar,Surkhet</p><br><br><br>
+          <h3>Experience</h3>
+          <p>As a CSIT student, I've gained experience in web development, working with technologies like HTML, CSS, JavaScript.I have gained valuable experience through both academic projects and hands-on learning. I have completed group projects that focused on e-commerce platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="projects">
+    <div class="container projects-container">
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>University Survey Form</h3>
+          <img src="university survey form.png" alt="Project 1">
+          <p>It's a simple, well-structured survey form designed for a university setting. It gathers basic information about users (such as personal details and preferences) and provides input fields for comments or suggestions.</p>
+        
+          <a href="https://github.com/Anjusomai123/gitpractice.git" target="_blank">GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Responsive Navigation Menu</h3>
+          <img src="navmenu.png" alt="Project 2">
+          <p>The code sets up a car dealership website with a navigation bar, sidebar menu, and sign-in modal. The navigation bar includes links to different sections, a dropdown menu for resources, and buttons for signing in and registering. The sidebar menu, which is initially hidden, contains links with icons and a section for email details.</p>
+          <a href="https://github.com/Anjusomai123/Internproject.git" target="_blank">GitHub</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container contact-container">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="form-message"></p>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <div class="container">
+      <p>Connect with me on:</p>
+      <div class="social-media-icons">
+        <img src="../github.jpg">
+        <br>
+        <a href="https://github.com/Anjusomai123" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script4.js"></script>
+</body>
+</html>
