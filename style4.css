@@ -6,15 +6,16 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-color:lightblue;
+    background-color:rgb(221, 220, 209);
     color: #333;
     scroll-behavior: smooth;
     display: flex;
     flex-direction:column;
+   
   }
  
   nav {
-    background-color:#27bfd0;
+    background-color:olive;
     padding: 10px 15px;
     width: 100%;
     position:fixed;
@@ -35,14 +36,14 @@
   }
   
   nav ul li a {
-    color: #0b0a0a;
+    color:white;
     text-decoration: none;
     font-size:larger;
     font-weight: bolder;
   }
   
   nav ul li a:hover {
-    background-color: hwb(184 76% 8%);
+    background-color: rgb(221, 220, 209);
     padding: 10px;
     border-radius: 5px;
   }
@@ -181,7 +182,7 @@
   }
   
   .project-card {
-    background-color: hwb(184 76% 8%);
+    background-color: rgb(203, 202, 194);
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -228,12 +229,12 @@
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgb(217, 242, 244);
+    background-color: hsl(180, 18%, 97%);
   }
   
   form button {
     padding: 10px;
-    background-color:hwb(195 16% 25%);
+    background-color:hsl(79, 25%, 39%);
     color: white;
     border: none;
     border-radius: 5px;
@@ -241,7 +242,7 @@
   }
   
   form button:hover {
-    background-color:hsl(195, 90%, 45%);
+    background-color:olive;
   }
   
   
@@ -260,23 +261,23 @@
     display: inline-block;
     margin: 5px;
     padding:10px 15px;
-    background-color: #27bfd0;
+    background-color:olive;
     color: #fff;
     border-radius: 5px;
     text-decoration: none;
     transition:background-color 0.3s ease;
   }
   footer {
-    background-color:#27bfd0;
-    color: #0f0e0e;
+    background-color:olive;
+    color: white;
     text-align: center;
     position: relative;
-    padding: 20px 0;
+    padding: 10px ;
     justify-content: space-between;
   }
   
   footer .social-media-icons a {
-    color: rgb(8, 7, 7);
+    color: #fcf8f8;
     margin: 0 10px;
     text-decoration: none;
     padding: 5px 10px;
